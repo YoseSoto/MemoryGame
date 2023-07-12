@@ -40,9 +40,12 @@ h1 {
   border: transparent;
   border-radius: 10px;
   font-size: 40px;
-  color: white;
   font-weight: 600;
   margin: 1px;
+  color: rgb(40,40,40);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
 }
 
 button:hover {
@@ -80,11 +83,7 @@ footer {
 a {
   text-decoration: none;
   font-weight: 600;
-  color: rgb(40,40,40);
   transition: 300ms;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
 }
 
 #reiniciar {
