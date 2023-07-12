@@ -1,0 +1,367 @@
+/* YOSE SOTOMAYOR */
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: rgb(147, 36, 157);
+  background: radial-gradient(
+    circle,
+    rgba(147, 36, 157, 1) 0%,
+    rgba(252, 70, 70, 1) 100%
+  );
+  color: white;
+}
+
+main {
+  width: 730px;
+  margin: 100px auto 50px;
+  display: flex;
+  align-items: center;
+}
+
+.section1 {
+  height: 580px;
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 0 10px 10px 10px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.num {
+  height: 110px;
+  width: 110px;
+  border: transparent;
+  border-radius: 10px;
+  font-size: 40px;
+  color: white;
+  font-weight: 600;
+  margin: 1px;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.section2 {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  width: 250px;
+  height: 590px;
+  padding: 0 30px;
+}
+
+h2 {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid white;
+  height: 105px;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+footer {
+  text-align: center;
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 600;
+  transition: 300ms;
+}
+
+#reiniciar {
+  background-color: transparent;
+  color: white;
+  font-weight: 600;
+  font-size: 26px;
+  border: 1px solid white;
+  height: 105px;
+  border-radius: 8px;
+}
+
+@media screen and (max-width: 950px) {
+  #titulo {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+
+  main {
+    width: 90vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    margin-left: 4%;
+  }
+
+  .section1 {
+    height: 64vh;
+    width: 95vw;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+  }
+
+  h1 {
+    text-align: center;
+    margin-top: 15px;
+  }
+
+  table {
+    display: flex;
+    justify-content: center;
+  }
+
+  .num {
+    width: 90px;
+    height: 90px;
+  }
+
+  .section2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+    height: 30vh;
+    width: 95vw;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0px;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  h2 {
+    border: 1px solid white;
+    height: 75px;
+    width: 180px;
+    border-radius: 8px;
+    font-size: 20px;
+    float: right;
+  }
+
+  a {
+    text-decoration: none;
+    font-weight: 600;
+    transition: 300ms;
+  }
+
+  #reiniciar {
+    border: 1px solid white;
+    height: 75px;
+    width: 180px;
+    border-radius: 8px;
+    font-size: 20px;
+    float: right;
+    margin: 18px 0 ;
+  }
+
+  footer {
+    text-align: center;
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 415px) {
+  #titulo {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+
+  main {
+    width: 100vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    margin-left: -2.5%;
+  }
+
+  .section1 {
+    height: 59vh;
+    width: 90vw;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+  }
+
+  h1 {
+    margin-top:40px;
+    text-align: center;
+  }
+
+  table {
+    display: flex;
+    justify-content: center;
+  }
+
+  .num {
+    width: 75px;
+    height: 75px;
+  }
+
+  .section2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+    height: 30vh;
+    width: 90vw;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0px;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  h2 {
+    border: 1px solid white;
+    height: 80px;
+    width: 120px;
+    border-radius: 8px;
+    font-size: 11px;
+    float: right;
+    padding: 0;
+    margin: 5px;
+  }
+
+  a {
+    text-decoration: none;
+    font-weight: 600;
+    transition: 300ms;
+  }
+
+  #reiniciar {
+    border: 1px solid white;
+    height: 80px;
+    width: 120px;
+    border-radius: 8px;
+    font-size: 11px;
+    float: right;
+    padding: 0;
+    margin: 5px;
+  }
+
+  footer {
+    text-align: center;
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 385px) {
+  #titulo {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+
+  main {
+    width: 100vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    margin-left: -2.5%;
+  }
+
+  .section1 {
+    height: 60vh;
+    width: 90vw;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+  }
+
+  h1 {
+    margin-top: 40px;
+    text-align: center;
+  }
+
+  table {
+    display: flex;
+    justify-content: center;
+  }
+
+  .num {
+    width: 62px;
+    height: 62px;
+  }
+
+  .section2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+    height: 30vh;
+    width: 90vw;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0px;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  h2 {
+    border: 1px solid white;
+    height: 80px;
+    width: 120px;
+    border-radius: 8px;
+    font-size: 15px;
+    float: right;
+    padding: 0;
+    margin: 5px;
+  }
+
+  a {
+    text-decoration: none;
+    font-weight: 600;
+    transition: 300ms;
+  }
+
+  #reiniciar {
+    border: 1px solid white;
+    height: 80px;
+    width: 120px;
+    border-radius: 8px;
+    font-size: 15px;
+    float: right;
+    padding: 0;
+    margin: 5px;
+  }
+
+  footer {
+    text-align: center;
+    font-size: 18px;
+    padding: 0px;
+    margin: 0px;
+    height: 5vh;
+  }
+}

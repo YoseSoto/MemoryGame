@@ -1,0 +1,65 @@
+<!--- YOSE SOTOMAYOR -->
+
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi juego de Memoria!</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+
+  <body>
+    <main>
+      <section class="section1">
+        <h1 id="titulo">¡Memorama!</h1>
+        <table>
+          <tr>
+            <td><button id="0" class="num" onclick="desplegar(0)"></button></td>
+            <td><button id="1" class="num" onclick="desplegar(1)"></button></td>
+            <td><button id="2" class="num" onclick="desplegar(2)"></button></td>
+            <td><button id="3" class="num" onclick="desplegar(3)"></button></td>
+          </tr>
+          <tr>
+            <td><button id="4" class="num" onclick="desplegar(4)"></button></td>
+            <td><button id="5" class="num" onclick="desplegar(5)"></button></td>
+            <td><button id="6" class="num" onclick="desplegar(6)"></button></td>
+            <td><button id="7" class="num" onclick="desplegar(7)"></button></td>
+          </tr>
+          <tr>
+            <td><button id="8" class="num" onclick="desplegar(8)"></button></td>
+            <td><button id="9" class="num" onclick="desplegar(9)"></button></td>
+            <td>
+              <button id="10" class="num" onclick="desplegar(10)"></button>
+            </td>
+            <td>
+              <button id="11" class="num" onclick="desplegar(11)"></button>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <button id="12" class="num" onclick="desplegar(12)"></button>
+            </td>
+            <td>
+              <button id="13" class="num" onclick="desplegar(13)"></button>
+            </td>
+            <td>
+              <button id="14" class="num" onclick="desplegar(14)"></button>
+            </td>
+            <td>
+              <button id="15" class="num" onclick="desplegar(15)"></button>
+            </td>
+          </tr>
+        </table>
+      </section>
+      <section class="section2">
+        <h2 id="aciertos">Aciertos: 0/8</h2>
+        <h2 id="tiempo">Tiempo: 30 <br />segundos</h2>
+        <h2 id="movimientos">Movimientos: 0</h2>
+        <button id="reiniciar">Reiniciar</button>
+      </section>
+    </main>
+    <footer>Juego programado por <a href="#"> Yose Sotomayor </a></footer>
+  </body>
+</html>
